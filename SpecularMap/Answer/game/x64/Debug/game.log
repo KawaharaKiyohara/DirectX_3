@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\stdafx.h(12): fatal error C1083: include ファイルを開けません。'btBulletDynamicsCommon.h':No such file or directory
+  Player.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\player.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  main.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\main.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  System.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\lib\system.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  SkinModelData.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\lib\skinmodeldata.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  SkinModel.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\lib\skinmodel.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  EffectManager.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\lib\effectmanager.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  Camera.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\lib\camera.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  Animation.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\stdafx.h(12): fatal error C1083: include ファイルを開けません。'btBulletDynamicsCommon.h':No such file or directory
+  game.cpp
+c:\users\localuser\documents\github\directxlesson\specularmap\answer\game\game.cpp : fatal error C1041: プログラム データベース 'C:\Users\localuser\Documents\GitHub\DirectXLesson\SpecularMap\Answer\game\x64\Debug\vc140.pdb' を開けません。複数の CL.EXE が同じ .PDB ファイルに書き込む場合、/FS を使用してください。
+  コードを生成中...

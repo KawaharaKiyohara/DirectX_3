@@ -1,0 +1,27 @@
+・カメラを回転させるには、カメラ行列を更新する必要がある。
+・カメラ行列の計算はD3DXMatrixLookAtLH関数を使用すれば行える。
+・D3DXMatrixLookAtLH関数は視点、注視点、上方向を渡して計算する。
+・視点を回せばカメラは回転する。なので・・・
+・下記のようなコードをRende関数で実行してやれば、カメラは回転する。
+　
+  D3DXMATRIX mRot;
+  //単位行列に初期化する。
+  D3DXMatrixIdentity(&mRot);			
+  if (GetAsyncKeyState(VK_LEFT)) {
+ 	//2.0度回転する行列を作成。
+	D3DXMatrixRotationY(&mRot, D3DXToRadian(-2.0f));
+  }
+  if (GetAsyncKeyState(VK_RIGHT)) {
+	//-2.0度回転する行列を作成。
+	D3DXMatrixRotationY(&mRot, D3DXToRadian(2.0f));
+  }
+  //作成した行列で視点を回す。
+  D3DXVECTOR4 vEyePtOut;
+  D3DXVec3Transform(&vEyePtOut, &vEyePt, &mRot);
+  vEyePt.x = vEyePtOut.x;
+  vEyePt.y = vEyePtOut.y;
+  vEyePt.z = vEyePtOut.z;
+  //カメラ行列の再計算。
+  D3DXVECTOR3 vLookatPt(0.0f, 1.0f, 0.0f);
+  D3DXVECTOR3 vUpVec(0.0f, 1.0f, 0.0f);
+  D3DXMatrixLookAtLH(&g_viewMatrix, &vEyePt, &vLookatPt, &vUpVec);

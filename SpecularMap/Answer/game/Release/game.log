@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  game.cpp
+  Animation.cpp
+  Camera.cpp
+  EffectManager.cpp
+  SkinModel.cpp
+  SkinModelData.cpp
+lib\SkinModelData.cpp(268): warning C4316: 'D3DXFRAME_DERIVED': object allocated on the heap may not be aligned 16
+  System.cpp
+  main.cpp
+  Player.cpp
+  Generating code
+  All 338 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  game.vcxproj -> C:\GitHub\DirectXLesson\SpecularMap\Answer\Release\game.exe

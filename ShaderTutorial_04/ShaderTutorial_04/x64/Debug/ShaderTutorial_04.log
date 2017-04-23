@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\github\directxlesson\shadertutorial_04\shadertutorial_04\main.cpp(110): warning C4018: '<': signed/unsigned mismatch
+  ShaderTutorial_04.vcxproj -> C:\GitHub\DirectXLesson\ShaderTutorial_04\x64\Debug\ShaderTutorial_04.exe

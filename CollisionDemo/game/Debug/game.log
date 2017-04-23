@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  Player.cpp
+  RigidBody.cpp
+  Physics.cpp
+  MeshCollider.cpp
+  CharacterController.cpp
+  CapsuleCollider.cpp
+  MapChip.cpp
+  Map.cpp
+c:\github\directxlesson\collisiondemo\game\map.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\github\directxlesson\collisiondemo\game\map.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  System.cpp
+  SkinModelData.cpp
+c:\github\directxlesson\collisiondemo\game\lib\skinmodeldata.cpp(268): warning C4316: 'D3DXFRAME_DERIVED': object allocated on the heap may not be aligned 16
+  SkinModel.cpp
+  EffectManager.cpp
+  Camera.cpp
+  Animation.cpp
+  game.cpp
+  Generating Code...
+  game.vcxproj -> C:\GitHub\DirectXLesson\CollisionDemo\Debug\game.exe

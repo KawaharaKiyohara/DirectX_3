@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  Player.cpp
+  main.cpp
+  System.cpp
+  SkinModelData.cpp
+c:\github\directxlesson\normalmapdemo\answer\game\lib\skinmodeldata.cpp(268): warning C4316: 'D3DXFRAME_DERIVED': object allocated on the heap may not be aligned 16
+  SkinModel.cpp
+  EffectManager.cpp
+  Camera.cpp
+  Animation.cpp
+  game.cpp
+  Generating Code...
+  game.vcxproj -> C:\GitHub\DirectXLesson\NormalMapDemo\Answer\Debug\game.exe

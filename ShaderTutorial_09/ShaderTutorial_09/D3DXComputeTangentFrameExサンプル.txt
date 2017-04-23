@@ -1,0 +1,17 @@
+D3DXComputeTangentFrameEx( pTempLocalMesh,
+                                    D3DDECLUSAGE_TEXCOORD,
+                                    0,
+                                    D3DDECLUSAGE_TANGENT,       
+                                    0,
+                                    D3DDECLUSAGE_BINORMAL,
+                                    0,
+                                    D3DDECLUSAGE_NORMAL,
+                                    0,
+                                    0,
+                                    NULL,
+                                    0.01f,    //É{ÉPãÔçá.ílÇÇ®Ç®Ç´Ç≠Ç∑ÇÈÇ∆Ç⁄ÇØÇ»Ç≠Ç»ÇÈ
+                                    0.25f,
+                                    0.01f,
+                                    &m_pLocalMesh,
+                                    NULL
+                                   );
